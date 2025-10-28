@@ -133,7 +133,7 @@ const CareersPage = () => {
                 <i className="ri-tools-line text-2xl text-blue-600"></i>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">メンテナンススタッフ</h3>
-              <div className="text-2xl font-bold text-blue-600 mb-4">月給18万円〜</div>
+              <div className="text-2xl font-bold text-blue-600 mb-4">月給<span className="font-sans">18</span>万円〜</div>
               <ul className="text-gray-600 space-y-2 mb-6">
                 <li>• エレベーターの定期点検</li>
                 <li>• 故障時の修理対応</li>
@@ -141,7 +141,7 @@ const CareersPage = () => {
                 <li>• 未経験歓迎</li>
               </ul>
               <div className="text-sm text-gray-500">
-                勤務地：名古屋・東海3県
+                勤務地：名古屋・東海<span className="font-sans">3</span>県
               </div>
             </div>
 
@@ -151,7 +151,7 @@ const CareersPage = () => {
                 <i className="ri-hammer-line text-2xl text-green-600"></i>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">機械据付スタッフ</h3>
-              <div className="text-2xl font-bold text-green-600 mb-4">月給30万円〜</div>
+              <div className="text-2xl font-bold text-green-600 mb-4">月給<span className="font-sans">30</span>万円〜</div>
               <ul className="text-gray-600 space-y-2 mb-6">
                 <li>• 新設エレベーターの設置</li>
                 <li>• 機械工事全般</li>
@@ -169,7 +169,7 @@ const CareersPage = () => {
                 <i className="ri-file-text-line text-2xl text-purple-600"></i>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">事務スタッフ</h3>
-              <div className="text-2xl font-bold text-purple-600 mb-4">月給16万円〜</div>
+              <div className="text-2xl font-bold text-purple-600 mb-4">月給<span className="font-sans">16</span>万円〜</div>
               <ul className="text-gray-600 space-y-2 mb-6">
                 <li>• 一般事務業務</li>
                 <li>• 顧客対応</li>

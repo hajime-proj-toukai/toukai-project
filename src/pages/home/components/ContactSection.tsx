@@ -64,7 +64,7 @@ const ContactSection = () => {
                     className="bg-slate-50 p-6 hover:bg-slate-100 transition-all duration-300 hover:scale-105 cursor-pointer shadow-md hover:shadow-lg"
                   >
                     <div className="flex flex-col sm:flex-row sm:items-center gap-4">
-                      <span className="text-slate-600 font-semibold text-sm whitespace-nowrap font-serif">
+                      <span className="text-slate-600 font-semibold text-sm whitespace-nowrap font-sans">
                         {item.date}
                       </span>
                       <h3 className="text-slate-800 font-medium leading-relaxed font-serif">
@@ -94,24 +94,25 @@ const ContactSection = () => {
               
               <div className="space-y-6">
                 <div className="text-center">
-                  <div className="text-2xl font-bold mb-2 font-serif">052-693-5588</div>
+                  <div className="text-2xl font-bold mb-2 font-sans">052-693-5588</div>
                   <div className="text-slate-300 font-serif">採用担当者直通</div>
-                  <div className="text-xl font-semibold font-serif">090-3481-9383</div>
+                  <div className="text-xl font-semibold font-sans">090-3481-9383</div>
+                  <div className="text-slate-300 font-serif mt-2">メール</div>
+                  <div className="text-lg font-semibold font-sans">info@toukai-elevator.com</div>
                 </div>
 
                 <div className="space-y-4 text-slate-300">
                   <div>
                     <div className="font-semibold text-white mb-1 font-serif">所在地</div>
-                    <div className="font-serif">〒459-8001</div>
-                    <div className="font-serif">愛知県名古屋市緑区大高町字中ノ島36-1</div>
+                    <div className="font-sans">〒459-8001</div>
+                    <div className="font-serif">愛知県名古屋市緑区大高町字中ノ島<span className="font-sans">36-1</span></div>
                   </div>
                   
                   <div>
                     <div className="font-semibold text-white mb-1 font-serif">FAX</div>
-                    <div className="font-serif">052-693-6077</div>
+                    <div className="font-sans">052-693-6077</div>
                   </div>
                 </div>
-
                 <div className="flex flex-col gap-4">
                   <button className="bg-slate-600 hover:bg-slate-500 text-white px-8 py-3 font-semibold transition-all duration-300 hover:scale-105 whitespace-nowrap cursor-pointer font-serif">
                     お問い合わせ

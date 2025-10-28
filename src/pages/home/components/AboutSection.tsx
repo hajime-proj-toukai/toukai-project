@@ -33,16 +33,16 @@ const AboutSection = () => {
 
       <div className="relative z-10 container mx-auto px-4 md:px-6">
         <div className="text-center mb-16 md:mb-20">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-700 mb-6 md:mb-8 font-serif">
+          <h2 className={`text-3xl md:text-4xl lg:text-5xl font-bold text-slate-700 mb-6 md:mb-8 font-serif transition-all duration-1200 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
             私たちについて
           </h2>
-          <div className="w-24 h-1 bg-slate-600 mx-auto"></div>
+          <div className={`w-24 h-1 bg-slate-600 mx-auto transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 scale-x-100' : 'opacity-0 scale-x-0'}`}></div>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 md:gap-16 items-center">
           <div 
-            className={`space-y-6 md:space-y-8 transition-all duration-1000 ${
-              isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
+            className={`space-y-6 md:space-y-8 transition-all duration-1200 delay-500 ${
+              isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-12'
             }`}
           >
             <div className="space-y-4 md:space-y-6">
@@ -64,11 +64,11 @@ const AboutSection = () => {
             </div>
 
             <div className="grid grid-cols-2 gap-4 md:gap-6">
-              <div className="bg-white p-6 md:p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer">
+              <div className={`bg-white p-6 md:p-8 shadow-lg hover:shadow-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 cursor-pointer transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`} style={{ transitionDelay: '800ms' }}>
                 <div className="text-2xl md:text-3xl font-bold text-slate-700 mb-2 font-sans">20+</div>
                 <div className="text-slate-600 font-serif text-sm md:text-base">年の豊富な経験</div>
               </div>
-              <div className="bg-white p-6 md:p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer">
+              <div className={`bg-white p-6 md:p-8 shadow-lg hover:shadow-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 cursor-pointer transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`} style={{ transitionDelay: '1000ms' }}>
                 <div className="text-2xl md:text-3xl font-bold text-slate-700 mb-2 font-sans">1000+</div>
                 <div className="text-slate-600 font-serif text-sm md:text-base">メンテナンス実績</div>
               </div>
@@ -76,15 +76,15 @@ const AboutSection = () => {
           </div>
 
           <div 
-            className={`transition-all duration-1000 delay-300 ${
-              isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'
+            className={`transition-all duration-1200 delay-700 ${
+              isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-12'
             }`}
           >
-            <div className="relative">
+            <div className="relative ml-8 lg:ml-16">
               <img
-                src="https://readdy.ai/api/search-image?query=Japanese%20elevator%20maintenance%20team%20working%20together%20on%20modern%20elevator%20shaft%2C%20professional%20technicians%20in%20safety%20gear%20and%20blue%20uniforms%2C%20teamwork%20and%20precision%2C%20industrial%20workplace%20setting%2C%20clean%20and%20organized%20environment&width=600&height=700&seq=about-team-work&orientation=portrait"
+                src="https://static.readdy.ai/image/e4cbf0de708db933b95718301e951dff/753795c2901992429c3d3b5e30e63da9.jpeg"
                 alt="エレベーターメンテナンスチーム"
-                className="w-full h-[500px] md:h-[700px] object-cover object-top shadow-2xl"
+                className="w-full h-[500px] md:h-[700px] object-cover object-center shadow-2xl hover:shadow-3xl transition-all duration-700 hover:scale-105"
                 style={{
                   clipPath: 'polygon(0% 0%, 80% 0%, 100% 100%, 20% 100%)'
                 }}

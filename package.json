@@ -1,7 +1,7 @@
 {
-  "name": "react",
+  "name": "toukai-site",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -36,6 +36,6 @@
     "typescript-eslint": "^8.35.1",
     "vite": "^7.0.3",
     "unplugin-auto-import": "^19.3.0",
-     "source-map": "^0.7.6"
+    "source-map": "^0.7.6"
   }
 }

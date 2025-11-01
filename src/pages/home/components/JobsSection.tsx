@@ -24,24 +24,24 @@ const JobsSection = () => {
 
   const jobs = [
     {
-      title: 'エレベーター据付工事',
-      description: '新築ビルやマンションにエレベーターを設置する工事を行います。',
-      requirements: ['未経験歓迎', '普通自動車免許', 'やる気のある方'],
-      salary: '月給25万円〜40万円',
+      title: 'メンテナンススタッフ',
+      description: '既設エレベーターの定期点検・保守・修理を行います。',
+      requirements: ['未経験歓迎', '正社員', '9：00～18：00 (休憩90分)', '名古屋・東海3県 ※出張有', '週休2日制 / 日曜日・他 ※GW・夏季・年末年始は勤務表による。'],
+      salary: '月給 180,000円～＋手当',
       delay: 0
     },
     {
-      title: 'エレベーターメンテナンス',
-      description: '既設エレベーターの定期点検・保守・修理を行います。',
-      requirements: ['未経験歓迎', '普通自動車免許', '責任感のある方'],
-      salary: '月給23万円〜38万円',
+      title: '機械据付スタッフ',
+      description: '各種機械の設置や組立、調整を行い、安定稼働までを担当します。',
+      requirements: ['未経験歓迎', '正社員', '8：00～17：00 (休憩90分)', '名古屋・東海3県 ※出張有', '週休2日制 / 日曜日・他 ※GW・夏季・年末年始は勤務表による。'],
+      salary: '月給 300,000円～＋手当',
       delay: 200
     },
     {
-      title: '現場監督・施工管理',
-      description: '工事現場の管理・監督業務を行います。',
-      requirements: ['経験者優遇', '施工管理技士資格歓迎', 'リーダーシップのある方'],
-      salary: '月給30万円〜50万円',
+      title: '事務スタッフ',
+      description: '書類作成やデータ入力、電話対応など、現場を支える事務業務を行います。',
+      requirements: ['未経験歓迎', '正社員 / パート / アルバイト', '9：00～18：00', '勤務地固定', '週休2日制 / 日曜日・他 ※GW・夏季・年末年始は勤務表による。'],
+      salary: '月給 160,000円～',
       delay: 400
     }
   ];
@@ -57,14 +57,14 @@ const JobsSection = () => {
       {/* 背景オーバーレイ */}
       <div className="absolute inset-0 bg-black/70"></div>
 
-      <div className="relative z-10 container mx-auto px-4 md:px-6">
+      <div id="jobsection" className="relative z-10 container mx-auto px-4 md:px-6">
         <div className="text-center mb-16 md:mb-20">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 md:mb-8 font-serif">
             採用情報
           </h2>
-          <div className="w-24 h-1 bg-slate-500 mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-slate-500 mx-auto mb-6 bg_yellow"></div>
           <p className="text-lg md:text-xl text-white max-w-3xl mx-auto leading-relaxed font-serif">
-            私たちと一緒に、安全で快適な縦の移動を支える仕事をしませんか？
+            景気に左右されず、安定した当社で一緒に働きませんか？<br />
             未経験の方も大歓迎です。
           </p>
         </div>
@@ -83,14 +83,14 @@ const JobsSection = () => {
               }}
             >
               <div className="space-y-4 md:space-y-6">
-                <h3 className="text-lg md:text-xl font-bold text-slate-700 font-serif">
+                <h3 className="text-lg md:text-xl font-bold text-slate-700 font-serif fs-14">
                   {job.title}
                 </h3>
                 <p className="text-slate-600 leading-relaxed font-serif text-sm md:text-base">
                   {job.description}
                 </p>
                 <div>
-                  <h4 className="font-semibold text-slate-700 mb-2 font-serif">応募資格</h4>
+                  <h4 className="font-semibold text-slate-700 mb-2 font-serif"></h4>
                   <ul className="space-y-1">
                     {job.requirements.map((req, reqIndex) => (
                       <li key={reqIndex} className="text-slate-600 text-sm md:text-base font-serif flex items-center">
@@ -212,14 +212,14 @@ const JobsSection = () => {
                 </div>
               </div>
               <p className="text-slate-600 leading-relaxed font-serif text-sm md:text-base">
-                海外出張もあり、グローバルに活躍できる環境です。通訳者がいるので英語が話せなくても大丈夫でした。
+                新しいことに挑戦できる環境が整っていて、日々やりがいを感じています。
               </p>
             </div>
           </div>
         </div>
 
         {/* 応募フォーム */}
-        <div className="bg-white/95 backdrop-blur-sm p-8 md:p-12 shadow-lg">
+        <div id="contact" className="bg-white/95 backdrop-blur-sm p-8 md:p-12 shadow-lg wid-75 content-center">
           <h3 className="text-2xl md:text-3xl font-bold text-slate-700 mb-8 md:mb-12 text-center font-serif">
             応募・お問い合わせ
           </h3>
@@ -298,7 +298,7 @@ const JobsSection = () => {
                   className="flex items-center space-x-2 text-slate-700 hover:text-slate-900 transition-colors"
                 >
                   <i className="ri-phone-line text-xl"></i>
-                  <span className="font-semibold font-serif" style={{ fontFamily: "'Noto Sans JP', sans-serif" }}>052-123-4567</span>
+                  <span className="font-semibold font-serif" style={{ fontFamily: "'Noto Sans JP', sans-serif" }}>052-693-5588</span>
                 </a>
                 <a 
                   href="mailto:info@toukai-elevator.com" 

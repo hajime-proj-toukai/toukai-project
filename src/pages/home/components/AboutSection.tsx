@@ -46,26 +46,27 @@ const AboutSection = () => {
             }`}
           >
             <div className="space-y-4 md:space-y-6">
-              <h3 className="text-2xl md:text-3xl font-bold text-slate-800 leading-relaxed font-serif">
-                確かな技術と提案力で
-                <span className="block text-slate-600">ご要望にお応えします</span>
+              <h3 className="text-2xl md:text-3xl font-bold text-slate-800 leading-relaxed font-serif lh-1 fs-1">
+                株式会社とうかいでは
+                <span className="block text-slate-600">一緒に働く仲間を募集しています</span>
               </h3>
               
               <div className="space-y-3 md:space-y-4 text-base md:text-lg text-slate-600 leading-loose font-serif">
                 <p>
-                  愛知県名古屋市に拠点を置く「株式会社とうかい」は、
-                  東海エリアを中心にエレベーターの据付工事やメンテナンスを主力業務として請け負っています。
+                  私たちの魅力は「人」です。
+                  1人ひとりがプロフェッショナルであり、互いに高め合いながら、
+                  より大きな成果を上げるという強い意志を持った人が集まっています。
                 </p>
                 <p>
-                  当社は、皆様に快適・安全・安心をお届けするため、
-                  最高の品質と最先端の技術を追及しています。
+                  「成長したい」「新しいことにチャレンジしたい」
+                  と思っている人にはピッタリの環境です。
                 </p>
               </div>
             </div>
 
             <div className="grid grid-cols-2 gap-4 md:gap-6">
-              <div className={`bg-white p-6 md:p-8 shadow-lg hover:shadow-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 cursor-pointer transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`} style={{ transitionDelay: '800ms' }}>
-                <div className="text-2xl md:text-3xl font-bold text-slate-700 mb-2 font-sans">20+</div>
+              <div className={`bg-yellow p-6 md:p-8 shadow-lg hover:shadow-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 cursor-pointer transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`} style={{ transitionDelay: '800ms' }}>
+                <div className="text-2xl md:text-3xl font-bold text-slate-700 mb-2 font-sans">10+</div>
                 <div className="text-slate-600 font-serif text-sm md:text-base">年の豊富な経験</div>
               </div>
               <div className={`bg-white p-6 md:p-8 shadow-lg hover:shadow-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 cursor-pointer transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`} style={{ transitionDelay: '1000ms' }}>
@@ -84,7 +85,7 @@ const AboutSection = () => {
               <img
                 src="https://static.readdy.ai/image/e4cbf0de708db933b95718301e951dff/753795c2901992429c3d3b5e30e63da9.jpeg"
                 alt="エレベーターメンテナンスチーム"
-                className="w-full h-[500px] md:h-[700px] object-cover object-center shadow-2xl hover:shadow-3xl transition-all duration-700 hover:scale-105"
+                className="w-full h-[500px] md:h-[700px] object-cover object-center object-custom shadow-2xl hover:shadow-3xl transition-all duration-700 hover:scale-105"
                 style={{
                   clipPath: 'polygon(0% 0%, 80% 0%, 100% 100%, 20% 100%)'
                 }}

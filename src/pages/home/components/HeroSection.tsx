@@ -24,7 +24,7 @@ const HeroSection = () => {
       
       {/* 右側の斜めオーバーレイ */}
       <div 
-        className="absolute inset-0 bg-gradient-to-l from-black/80 via-black/60 to-transparent"
+        className="sp-none absolute inset-0 bg-gradient-to-l from-black/80 via-black/60 to-transparent"
         style={{
           clipPath: 'polygon(30% 0%, 100% 0%, 100% 100%, 50% 100%)'
         }}
@@ -42,11 +42,11 @@ const HeroSection = () => {
               安全と信頼を運ぶ
             </h1>
             
-            <div className={`mb-3 md:mb-4 text-xs md:text-sm tracking-widest opacity-80 text-white transition-all duration-1000 delay-700 ${isVisible ? 'opacity-80 translate-x-0' : 'opacity-0 translate-x-8'}`} style={{ fontFamily: '"Shippori Mincho", serif' }}>
+            <div className={`sp-none mb-3 md:mb-4 text-xs md:text-sm tracking-widest opacity-80 text-white transition-all duration-1000 delay-700 ${isVisible ? 'opacity-80 translate-x-0' : 'opacity-0 translate-x-8'}`} style={{ fontFamily: '"Shippori Mincho", serif' }}>
               PROFESSIONAL ELEVATOR SERVICES
             </div>
             
-            <p className={`text-lg md:text-xl lg:text-2xl text-white mb-8 md:mb-12 opacity-90 font-serif transition-all duration-1000 delay-900 ${isVisible ? 'opacity-90 translate-y-0' : 'opacity-0 translate-y-6'}`}>
+            <p className={`mb-13rem text-lg md:text-xl lg:text-2xl text-white mb-8 md:mb-12 opacity-90 font-serif transition-all duration-1000 delay-900 ${isVisible ? 'opacity-90 translate-y-0' : 'opacity-0 translate-y-6'}`}>
               東海エリアを中心に全国のエレベーターの据付工事やメンテナンスを主力業務として請け負っています。
             </p>
             

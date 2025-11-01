@@ -73,7 +73,7 @@ const Header = () => {
             <button className="bg-slate-600 hover:bg-slate-700 text-white px-6 py-2 font-semibold transition-all duration-300 hover:scale-105 whitespace-nowrap cursor-pointer font-serif">
               <span className="flex items-center gap-2">
                 <i className="ri-phone-line"></i>
-                <span className="font-sans">090-3481-9383</span>
+                <span className="font-sans">052-693-5588</span>
               </span>
             </button>
           </div>

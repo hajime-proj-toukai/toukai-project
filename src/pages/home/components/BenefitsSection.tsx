@@ -47,8 +47,8 @@ const BenefitsSection = () => {
       delay: 400
     },
     {
-      title: '海外でも活躍できる',
-      description: '海外出張があるのでグローバルに活躍できます。通訳者がいるので英語スキルは不問です。',
+      title: '安定しながら成長できる',
+      description: '安定した仕事量の中で、技術力や知識を磨きながら長く働ける環境です。一歩ずつ確実にスキルアップしたい方に最適です。',
       delay: 500
     }
   ];
@@ -68,8 +68,8 @@ const BenefitsSection = () => {
 
       <div className="relative z-10 container mx-auto px-4 md:px-6">
         <div className="text-center mb-16 md:mb-20">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 md:mb-8 font-serif">
-            とうかいで働く6つのメリット
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 md:mb-8 font-serif toukai-6">
+            とうかいで働く<br />6つのメリット
           </h2>
           <div className="w-24 h-1 bg-slate-500 mx-auto"></div>
         </div>

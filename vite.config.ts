@@ -6,7 +6,7 @@ import AutoImport from 'unplugin-auto-import/vite'
 // ======================================================
 // 開発モード設定（ローカルでの確認を快適に）
 // ======================================================
-const base = '/' // GitHub Pages用ではないので "/" に戻す
+const base = '/toukai-project/' // GitHub Pages用ではないので "/" に戻す
 const isPreview = process.env.IS_PREVIEW ? true : false
 
 export default defineConfig({

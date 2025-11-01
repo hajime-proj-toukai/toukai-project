@@ -1,0 +1,83 @@
+/* カスタムCSS */
+.vapi-widget-wrapper {
+    display: none !important;
+}
+
+.object-custom {
+    object-position: 25% 50%;
+}
+
+/* 株式会社とうかいでは
+一緒に働く仲間を募集しています */
+.lh-1 {
+    line-height: 3rem;
+}
+.fs-1 {
+    font-size: 2.2rem;
+}
+
+/* 応募・お問い合わせ */
+.wid-75 {
+    width: 75%;
+}
+
+.toukai-6 > br {
+    display: none;
+}
+
+.bg-slate-500 {
+    background-color: rgb(255 240 164);
+}
+
+@media screen and (max-width: 768px) {
+    .wid-75 {
+        width: 100%;
+    }
+    .mb-13rem {
+        margin-bottom: 13rem;
+    }
+    .sp-none {
+        display: none;
+    }
+    .toukai-6 > br {
+        display: inline-block;
+    }
+}
+
+.content-center {
+    display: block;
+    margin: 0 auto;
+}
+
+.font-serif {
+    font-family: "Noto Serif JP";
+}
+
+/* 冒頭のボタン */
+.py-3 {
+    padding-top: 0.85rem;
+    padding-bottom: 0.85rem;
+}
+.px-8 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+/* 冒頭のキャッチコピー */
+.tracking-wide {
+    letter-spacing: 0.28em;
+}
+
+/* 応募フォームの角丸 */
+.content-center {
+    border-radius: 10px;
+}
+
+.bg-yellow {
+    background: rgb(250 255 229);
+}
+
+/* 各業種の名前部分 */
+.fs-14 {
+    font-size: 1.4rem;
+}
